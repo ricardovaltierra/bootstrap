@@ -1,17 +1,38 @@
 
-.nw-color {
+.bg-news {
   background-color: #f72210;
 }
 
-.logo {
-  margin-left: -10px;
+.bg-news .text-uppercase {
+  font: bold 14px/14px "Roboto Condensed",sans-serif;
+  padding: 6px 3px;
 }
 
-@media (min-width: 1200px) {
+.logo {  
+  width: 119px;
+  margin-left: 5px;
+}
+
+.hb {
+  background-image: url(../img/threelines.png);
+  background-repeat: no-repeat;
+}
+
+
+@media (min-width: 1025px) {
   .cont {
+    background-color: #f4f5f6;
     max-width: 1310px;
     height: 95px;
   }
+}
+
+@media (min-width: 426px) {
+
+}
+
+@media (min-width: 769px) {
+
 }
 
 
