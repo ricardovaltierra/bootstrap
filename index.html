@@ -13,20 +13,38 @@
   <link rel="icon" href="assets/img/favicon.jpg"> 
   <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
-<body class="container cont">
-  <header class="row">
-    <!-- header - first row-->
-    <section class="col row align-items-center bg-news">
-      <img src="../assets/img/logo.png" alt="Newsweek" class="logo d-inline-flex bg-info">
-      <div class="text-uppercase d-inline-flex bg-success">sign in</div>
-      <div class="text-uppercase d-inline-flex bg-light text-danger">subscribe</div>
-      <div class="col-2 hb">-</div>
-    </section>
-    <!-- main nav - second row -->
-    <nav>
-      
-    </nav>
+<body class="container-fluid p-0">
+
+  <header class="ph-hd bg-news p-0 fixed-top">
+    <div class="container d-flex justify-content-end mr-0 pl-0">
+        <span class="logo mr-auto p-2 align-self-center"><a href="#"><img src="/assets/img/logo.png" alt="Newsweek"></a></span>
+      <div class="row p-2 hd-tp  align-self-center">
+        <div class="col-md-3 d-none d-lg-flex">1</div>
+        <div class="col-12 ml-auto text-uppercase d-flex align-items-center pr-0"> 
+          <a href="#" class="lk text-light mr-2">sign in</a>
+          <a href="#" class="lk bg-light text-news p-1">subscribe</a>
+          <span class=" genericon d-flex justify-content-end align-items-center"><a href="#"><img src="/assets/img/threelines.png" alt="burger"></a></span>
+        </div>
+      </div>
+      <div class="hd-mid">
+      </div>
+      <nav class="hd-btm d-none d-lg-flex bg-warning">        
+      </nav>
+    </div>
   </header>
+  
+  <main class="container-fluid">
+    <section class="colwrap row sticky-scroll">
+      <div class="col-4">
+        <div class="col-1"></div>
+        <div class="col-2">
+          <div class="block-nw order-1">
+            <div class="block-title"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
     
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
