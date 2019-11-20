@@ -41,6 +41,18 @@
 
 }
 
+main {
+  margin-top: 60px;
+}
+
+.block-title {
+  height: 50%;
+}
+
+.fp {
+  height: 50%;
+}
+
 @media (min-width: 426px) {
 
 }
