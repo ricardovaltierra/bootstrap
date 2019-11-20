@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
 
+a {
+  text-decoration: none;
+  color: black;  
+}
+
 .text-news {
   color: #f72210;
 }
 
 .bg-news {
   background-color: #f72210;
+}
+
+.roboto-news {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
 }
 
 .logo img {
@@ -19,9 +29,7 @@
   height: 50px;
 }
 
-.hd-tp {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
+.hd-tp {  
   font-size: 0.88rem;
 }
 
@@ -45,12 +53,49 @@ main {
   margin-top: 60px;
 }
 
-.block-title {
-  height: 50%;
+.block-title p{
+  color: rgba(3,3,3,.4);
+  font-size: 13px;  
+  transform:scale(1,1.4);
+}
+
+.wrapimage {
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 5px;
+}
+
+.category {
+  display: block;
+  position: absolute;
+  padding: 4px 15px 4px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(255,255,255,.9);
 }
 
 .fp {
-  height: 50%;
+  
+}
+
+#front {
+  line-height: 0.65;
+  margin-bottom: 15px;
+}
+
+#front a{
+  font-size: 22px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 1.4;
+  color: #333;
 }
 
 @media (min-width: 426px) {
