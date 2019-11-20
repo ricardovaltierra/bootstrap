@@ -5,6 +5,16 @@ a {
   color: black;  
 }
 
+img {
+  vertical-align: middle;
+  height: auto;
+}
+
+.border-text {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
 .text-news {
   color: #f72210;
 }
@@ -53,7 +63,7 @@ main {
   margin-top: 60px;
 }
 
-.block-title p{
+.block-title p {
   color: rgba(3,3,3,.4);
   font-size: 13px;  
   transform:scale(1,1.4);
@@ -85,9 +95,7 @@ main {
 }
 
 #front a{
-  font-size: 22px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  font-size: 22px;  
 }
 
 .summary {
