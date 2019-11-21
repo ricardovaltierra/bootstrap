@@ -80,7 +80,7 @@ a.footer: #666 / Arial,Helv / 14px (1 bold)
 
 Classes:
 
-.rbt-19 (black / roboto / 19px)
+.rbt-19 (black / roboto / 19px) - 
 .rbt-button (#FFF / roboto / 18px)
 .rbt-figcaption (red-blue / roboto condensed / 17px)
 .rbt-16 (roboto condensed / 16px)
@@ -98,4 +98,4 @@ Colors:
 - #555
 - #666
 - #333 (black)
-- 272727 (footer)
+- 272727 (footer) .
