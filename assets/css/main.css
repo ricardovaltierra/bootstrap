@@ -79,7 +79,9 @@ img {
 
 .text-footer {
   font-family: Arial, Helvetica, sans-serif;
-  color: #666;
+  font-size: 14px;
+  line-height: 1;
+  color: #666;  
 }
 
 .logo img {
@@ -266,15 +268,65 @@ main {
 
 }
 
-/* .current {
+.starting-5 {
+  width: 100%;
+  height: 160px;
   position: relative;
-  width: 170px;
-  height: 227px;
-  background-image: url(../img/headers/suscribe/2.jpg);
+  background: url(../img/headers/medium/starting-5.png) center center / cover no-repeat;
+}
+
+/* footer section */
+
+.brand {
+  display: block;
+  background-image: url(../img/newsweek-logo.png);
   background-repeat: no-repeat;
   background-clip: border-box;
-  background-size: contain;  
-} */
+  background-size: contain; 
+  width: 236px;
+  height: 36px;    
+}
+
+.copyright {
+  font-size: 13px;
+}
+
+.media {
+  list-style: none;
+}
+
+.genericon {
+  display: block;  
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: contain;
+  width: 26px;
+  height: 26px;
+}
+
+.genericon-fb {  
+  background-image: url(../img/social/fb.png);  
+}
+
+.genericon-twt {
+  background-image: url(../img/social/twt.png);
+}         
+
+.genericon-inst {
+  background-image: url(../img/social/inst.png);  
+}
+
+.genericon-tmblr {
+  background-image: url(../img/social/tumblr.png);
+}
+
+.genericon-lkdin {
+  background-image: url(../img/social/lnkdin.png);
+}
+
+.footer-links ul {
+  list-style: none;
+}
 
 @media (min-width: 426px) {
 
