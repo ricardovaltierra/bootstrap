@@ -257,19 +257,24 @@ main {
   left: 19px;
 }
 
-.prev {
-  background-image: url(../img/headers/suscribe/1.jpg);
-  background-repeat: no-repeat;
-  background-clip: border-box;
-  background-size: contain;  
+.mag-thumb {
+  width: 260px;
+  height: 241px;
+  position: relative;  
+  background: url(../img/headers/suscribe/1.jpg) bottom right no-repeat,
+              url(../img/headers/suscribe/2.jpg) top left no-repeat;
+
 }
 
-.current {
+/* .current {
+  position: relative;
+  width: 170px;
+  height: 227px;
   background-image: url(../img/headers/suscribe/2.jpg);
   background-repeat: no-repeat;
   background-clip: border-box;
   background-size: contain;  
-}
+} */
 
 @media (min-width: 426px) {
 
