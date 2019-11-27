@@ -97,10 +97,6 @@ img {
   letter-spacing: 0.2px;
 }
 
-.genericon {
-  width: 42px;
-}
-
 .hd-mid {
 
 }
@@ -345,8 +341,22 @@ footer {
   cursor: pointer;
 }
 
+/* Tablet Sizing */
 @media (min-width: 426px) {
+  .logo img {
+    position: absolute;
+    top: 6px;
+    left: 7px;
+  }
 
+  .hd-tp {
+    font-size: 1.15rem;
+  }
+
+  img[alt="burger"] {
+    width: 37px;
+    height: 28px;
+  }
 }
 
 @media (min-width: 769px) {
