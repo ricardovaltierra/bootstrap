@@ -357,6 +357,11 @@ footer {
     width: 37px;
     height: 28px;
   }
+
+  .newsletter {
+    height: 210px;      
+  }
+  
 }
 
 @media (min-width: 769px) {
