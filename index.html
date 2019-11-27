@@ -33,13 +33,16 @@
   </header>
   
   <!-- Page Content -->
-  <main class="row mx-auto">
+  <main class="container-fluid">
+
+    <!-- First Row (tablet) -->
+    <div class="row mx-auto">
         
     <!-- Top Story, More Stories and Culture & Travel BEGIN -->
     <div class="col-sm-6">
     
       <!-- Top Story Section -->
-      <section class="block container-fluid">          
+      <section class="">          
         <div class="row text-uppercase d-flex font-weight-bold block-title roboto-news"><p class="col my-2 px-0">Top Story</p></div>            
         <article class="row">
           <div class="wrapimage">
@@ -52,7 +55,7 @@
       </section>
       
       <!-- More Stories Section -->
-      <section class="block container-fluid">
+      <section class="">
         <div class="row text-uppercase d-flex roboto-news block-title mt-2"><p class="col my-2 px-0" >more stories</p></div>
         <!-- article 1 -->
         <article class="row border-top">
@@ -186,7 +189,7 @@
       <!-- More Stories Section end -->
 
       <!-- Culture & Travel Section -->
-      <section class="block container-fluid section-3">
+      <section class="section-3 container-fluid">
         <div class="row text-uppercase d-flex roboto-news block-title mt-2 pl-2"><p class="col my-2 px-0" >culture & travel</p></div>
         <!-- article 1 -->
         <article class="row">
@@ -272,7 +275,7 @@
     <div class="col-sm-5 order-sm-first">
     
       <!-- Featured Stories Section -->
-      <section class="block container-fluid">
+      <section class="">
         <div class="row text-uppercase d-flex roboto-news block-title mt-2"><p class="col my-2 px-0" >featured stories</p></div>
         <!-- story 1 -->
         <article class="row">
@@ -435,12 +438,17 @@
               </div>            
             </div>
           </article>
-      </section>      
-      <!-- Featured Stories Section ends -->
+      </section>       
     </div>
+    <!-- Featured Stories Section ends -->
+    </div>
+    <!-- First Row (tablet) ends -->
+
+    <!-- Second Row (tablet) -->
+    <div class="row mx-auto">
 
       <!-- Opinion Section -->
-      <section class="block container-fluid">
+      <section class="container-fluid">
         <div class="row text-uppercase d-flex roboto-news block-title mt-2"><p class="col my-2 px-0" >opinion</p></div>
         <ul class="row opinions px-0">
           <!-- item 1 -->
@@ -494,9 +502,14 @@
         </ul>
       </section>
       <!-- Opinion Section ends -->
+      </div>
+      <!-- Second Row (tablet) ends -->      
+
+      <!-- Third Row (tablet) -->
+      <div class="row mx-auto">
 
       <!-- Latest News Section -->
-      <section class="block container-fluid">
+      <section class="container-fluid">
         <div class="row text-uppercase d-flex roboto-news block-title mt-2"><p class="col mt-2 mb-0 px-0" >latest news</p></div>
         <!-- article 1 -->
         <article class="row py-2">
@@ -577,9 +590,15 @@
         </article>
       </section>
       <!-- Latest News Section ends -->
+      </div>
+      <!-- Third Row (tablet) -->
+
+      <!-- Fourth Row (tablet) -->
+      <div class="row">            
+      <div class="col-sm-6 mx-auto">
 
       <!-- Sponsor Insight -->
-      <section class="block container-fluid mt-4">
+      <section class="container-fluid mt-4">
         <article class="row d-block pt-3">
           <div class="wrapimage mb-0">
             <div class="category roboto-news"><a href="#" class="text-news-b text-uppercase">sponsored insigth</a></div>
@@ -683,10 +702,15 @@
         </article>
       </section>
       <!-- Sponsored Insight Section ends -->
+      </div>
+      </div>
+      <!-- Fourth Row (tablet) ends -->
+
+      
 
       <!-- Magazine Issue -->
-      <section class="block container-fluid mt-5">          
-        <article class="row d-block pt-4">
+      <section class="row mt-5">          
+        <article class="col col-sm-9 d-block pt-4 mx-sm-auto">
           <div class="wrapimage mb-0">
             <div class="category roboto-news"><a href="#" class="text-news text-uppercase">november 29 issue</a></div>
             <a href="#">
@@ -697,16 +721,22 @@
               <a href="#" class="roboto-news text-uppercase narrow">see all features</a>                                       
           </div>          
         </article>
-      </section>
+      </section>      
         
       <!-- In The Magazine Section -->
-      <section class="block container-fluid">        
+      <section class="container-fluid mt-sm-5">        
         <div class="row d-flex justify-content-center">
             <span class="icon-n"></span>
-            <h5 class="roboto-news ml-2 pr-2 my-1 text-uppercase">in the magazine</h5>          
+            <h5 class="roboto-news ml-2 pr-2 my-1 text-uppercase">in the magazine</h5>
         </div>
+        <hr class="d-none d-sm-block">
+
+        <!-- Fifth Row (tablet) -->      
+        <div class="col-sm-12 mx-auto">
+        <div class="row">
+
         <!-- article 1 -->
-        <article class="row d-block pt-4">
+        <article class="col-sm-3 row-xs d-block pt-4">
           <div class="wrapimage mb-0">              
             <a href="#">
               <img src="assets/img/headers/medium/in-the-mag/1.jpg" alt="image #1" class="w-100">
@@ -721,7 +751,7 @@
           </div>
         </article>
         <!-- article 2 -->
-        <article class="row d-block pt-4">
+        <article class="col-sm-3 row-xs d-block pt-4">
           <div class="wrapimage mb-0">              
             <a href="#">
               <img src="assets/img/headers/medium/in-the-mag/2.jpg" alt="image #1" class="w-100">
@@ -736,7 +766,7 @@
           </div>
         </article>
         <!-- article 3 -->
-        <article class="row d-block pt-4">
+        <article class="col-sm-3 row-xs d-block pt-4">
           <div class="wrapimage mb-0">              
             <a href="#">
               <img src="assets/img/headers/medium/in-the-mag/4.jpg" alt="image #1" class="w-100">
@@ -749,9 +779,9 @@
           <div class="mt-2 lh-1">
               <a href="#"class="roboto-news">After Sesame Street: What's Next for Children's TV?</a>
           </div>
-        </article>
+        </article>        
         <!-- article 4 -->
-        <article class="row d-block pt-4">
+        <article class="col-sm-3 row d-block pt-4">
           <div class="wrapimage mb-0">              
             <a href="#">
               <img src="assets/img/headers/medium/in-the-mag/3.jpg" alt="image #1" class="w-100">
@@ -765,8 +795,11 @@
               <a href="#"class="roboto-news">Future Food Allergy Reactions Could Be Treated With a Pill</a>
           </div>
         </article>
+        </div>        
+
+        <div class="row">
         <!-- article 5 -->
-        <article class="row d-block pt-4">
+        <article class="col-sm-3 row-xs d-block pt-4">
           <div class="wrapimage mb-0">              
             <a href="#">
               <img src="assets/img/headers/medium/in-the-mag/5.jpg" alt="image #1" class="w-100">
@@ -781,7 +814,7 @@
           </div>
         </article>
         <!-- article 6 -->
-        <article class="row d-block pt-4">
+        <article class="col-sm-3 row-xs d-block pt-4">
           <div class="wrapimage mb-0">              
             <a href="#">
               <img src="assets/img/headers/medium/in-the-mag/6.jpg" alt="image #1" class="w-100">
@@ -796,28 +829,52 @@
           </div>
         </article>
         <!-- article 7 -->
-        <article class="row d-block pt-4">
-          <div class="wrapimage bg-danger mb-0">
-            <div class="infocus bg-news roboto-news"><a href="#" class="text-light text-uppercase">in focus</a></div>
-            <a href="#">
-              <img src="assets/img/headers/medium/in-the-mag/7.jpg" alt="image #1" class="w-100">          
-            </a>
-          </div>          
-          <div class="mt-2">              
-              <a href="#" class="section-7 text-uppercase roboto-news py-1">higher ground</a>
-          </div>
-        </article>
+        <article class="col-sm-3 row-xs d-block pt-4">
+            <div class="wrapimage mb-0">              
+              <a href="#">
+                <img src="assets/img/headers/medium/in-the-mag/6.jpg" alt="image #1" class="w-100">
+              </a>
+            </div>
+            <div class="mt-2">
+                <a href="#" class="section-7 text-light text-uppercase roboto-news bg-news px-2 py-1">downtime</a>
+                <a href="#" class="section-7 text-news text-uppercase roboto-news px-2 py-1">culture</a>
+            </div>
+            <div class="mt-2 lh-1">
+                <a href="#"class="roboto-news">Helena Bonham Carter on 'The Crown' and Princess Margaret's Vulnerability</a>
+            </div>
+          </article>
+        <!-- article 8 -->
+        <article class="col-sm-3 row-xs d-block pt-4">
+            <div class="wrapimage bg-danger mb-0">
+              <div class="infocus bg-news roboto-news"><a href="#" class="text-light text-uppercase">in focus</a></div>
+              <a href="#">
+                <img src="assets/img/headers/medium/in-the-mag/7.jpg" alt="image #1" class="w-100">          
+              </a>
+            </div>          
+            <div class="mt-2">              
+                <a href="#" class="section-7 text-uppercase roboto-news py-1">higher ground</a>
+            </div>
+          </article>
+        </div>
       </section>                       
       <!-- In The Magazine Section ends -->
-
-      <!-- Editor's Pick Section -->
-      <section class="block container-fluid mt-5">        
-        <div class="row d-flex justify-content-center pb-2">
+      </div>      
+      <!-- Sixth Row (tablet) -->
+      
+      <!-- In The Magazine Section -->
+      <section class="container-fluid mt-sm-5">        
+        <div class="row d-flex justify-content-center">
             <span class="icon-n"></span>
-            <h5 class="roboto-news ml-2 pr-2 my-1 text-uppercase">editor's pick</h5>          
+            <h5 class="roboto-news ml-2 pr-2 my-1 text-uppercase">editor's pick</h5>
         </div>
+        <hr class="d-none d-sm-block">
+
+        <!-- Fifth Row (tablet) -->
+        <div class="col-sm-12 mx-auto">
+        <div class="row justify-content-around">
+
         <!-- story 1 -->
-        <article class="row pt-3 border-top">
+        <article class="col-sm-6 row-xs row pt-xs-3 border-xs-top">
           <div class="wrapimage">
             <div class="category roboto-news"><a href="#" class="text-news">U.S.</a></div>
             <a href="#">
@@ -833,8 +890,8 @@
             </div>            
           </div>
         </article>
-        <!-- story 2 -->
-        <article class="row">
+        <!-- story 2 -->        
+        <article class="col-sm-6 row-xs row">
           <div class="wrapimage">
             <div class="category roboto-news"><a href="#" class="text-news">U.S.</a></div>
             <a href="#">
@@ -850,6 +907,7 @@
             </div>            
           </div>
         </article>
+        </div>
         <!-- story 3 -->
         <article class="row">
           <div class="wrapimage">
@@ -953,10 +1011,16 @@
           </div>
         </article>
       </section>      
-      <!-- Editor's Pick Section ends -->
+      <!-- Editor's Pick Section ends -->      
+      </div>
+      <!-- Seventh Row (tablet) -->
+      
+      <!-- Eighth Row (tablet) -->
+      <div class="row mx-auto">
+      <div class="col-sm-6 mx-auto">
 
       <!-- Featured Slideshows Section -->
-      <section class="block container-fluid mt-5">        
+      <section class="mt-5">        
         <div class="row d-flex justify-content-center pb-2">
             <span class="icon-n"></span>
             <h5 class="roboto-news ml-2 pr-2 my-1 text-uppercase">featured Slideshows</h5>          
@@ -1035,11 +1099,17 @@
         </article>          
       </section>
       <!-- Featured Slideshows Section ends -->
-
+      </div>
+      </div>
+      <!-- Eighth Row (tablet) -->
+      
       <hr>
+      
+      <!-- Nineth Row (tablet) -->
+      <div class="row mx-auto">
 
       <!-- Suscribe Section -->
-      <section class="block container-fluid">
+      <section class="container-fluid">
           <div class="row text-uppercase d-flex roboto-news block-title mt-2"><p class="col my-2 px-0 text-news">suscribe</p></div>
           <div class="row section-3 px-2 pt-3 pb-4 text-center">            
             <div class="mag-thumb mx-auto mb-3"></div>
@@ -1050,9 +1120,13 @@
             </div>
           </div>
       </section>
+      </div>
 
-      <!-- Suscribe Section -->
-      <section class="block container-fluid mb-5">
+      <!-- Nineth Row (tablet) -->
+      <div class="row mx-auto">
+
+      <!-- Newsletter Section -->
+      <section class="container-fluid mb-5">
         <div class="row text-uppercase d-flex roboto-news block-title mt-2"><p class="col my-2 px-0 text-news">newsletter</p></div>
         <div class="row border pb-2 text-center">            
           <div class="starting-5 mb-3"></div>
@@ -1064,11 +1138,12 @@
           </div>
         </div>
     </section>
+    </div>
 
     <hr class="pb-0 mb-0">
 
     <!-- Footer Section -->
-    <footer class="container-fluid">
+    <footer class="">
       <div class="social">
         <a href="#" class="brand"></a>
         <p class="copyright pt-2 text-footer mb-2 pb-1">© 2019 Newsweek</p>
