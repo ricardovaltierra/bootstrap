@@ -361,6 +361,10 @@ footer {
   .newsletter {
     height: 210px;      
   }
+
+  .border-sm-right {
+    border-right: 1px solid #d9d9d9;
+  }
   
 }
 
