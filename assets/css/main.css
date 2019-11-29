@@ -217,7 +217,7 @@ main {
   display: inline-block;
   width: 8px;
   height: 14px;
-  margin-left: 10px;background: url(../img/icon-arrow-right.svg);
+  margin-left: 10px;background: url(../img/icon-arrow-right.svg);  
 }
 
 .section-9 {
@@ -375,5 +375,5 @@ footer {
 @media (min-width: 1025px) {
   .ph-hd {
     max-width: 1310px;    
-  }
+  }  
 }
