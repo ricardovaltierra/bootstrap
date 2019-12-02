@@ -136,8 +136,37 @@ main {
   z-index: 1;  
 }
 
-.fp {
-  
+nav::before {
+  position: absolute;
+  right: 0;
+  content: "";
+  width: 78px;
+  margin-right: 15px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.nav-cont {
+  margin-top: 90px;
+  z-index: 999;
+}
+
+.navbar {
+  width: 93%;
+}
+
+.nvbr-li {
+  border-left: solid 1px #d9d9d9;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.nvbr-ln {
+  color: black;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
 }
 
 #front {
@@ -374,6 +403,10 @@ footer {
 
 @media (min-width: 1025px) {
   .ph-hd {
-    max-width: 1410px;    
-  }  
+    max-width: 1410px;
+    height: 95px;
+  }
+  .newsletter {
+    height: 301px;      
+  }
 }
