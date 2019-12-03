@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+body {
+  display: flex;    
+}
+
 .ind-1 {
   z-index: -1;
 }
@@ -168,7 +172,8 @@ nav::before {
   margin-bottom: 15px;
 }
 
-#front a {
+#front a,
+.news-section p {
   font-size: 22px;
 }
 

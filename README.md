@@ -55,7 +55,7 @@ This project consist of building a replica of the news site Newsweek.com using t
 <!-- LIVE DEMO -->
 ## Live Demo
 
-[Live Demo Link](https://ricardovaltierra.github.io/using-bootstrap/)
+[Newsweek](https://ricardovaltierra.github.io/using-bootstrap/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
