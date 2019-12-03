@@ -3,6 +3,10 @@
 /* Lora Serif */
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+.ind-1 {
+  z-index: -1;
+}
+
 .lh-1 {
   line-height: 1 !important;
 }
@@ -148,8 +152,9 @@ nav::before {
 }
 
 .nav-cont {
+  position: relative;
   margin-top: 90px;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .navbar {
@@ -408,5 +413,24 @@ footer {
   }
   .newsletter {
     height: 301px;      
+  }
+  .nav-red {
+    height: 100%;
+    display: flex;
+    padding: 0 15px;
+  }
+  .rg-sd {
+    margin-top: 48px;
+  }
+  .logo {    
+    position: relative;
+    height: 95px;
+    padding: 0;
+  }
+  .logo img{
+    position: relative;    
+    width: 395px;
+    margin-top: -30px
+    
   }
 }
