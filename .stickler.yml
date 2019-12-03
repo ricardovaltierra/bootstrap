@@ -3,6 +3,8 @@ linters:
     config: 'stylelint.config.js'
 files:
     ignore:                
-        - 'LICENSE'            
+        - 'LICENSE'
+        - 'assets/css/temp.css'
+        - '.gitignore'      
 fixers:
     enable: true
