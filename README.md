@@ -1,11 +1,3 @@
-# using-bootstrap
-This project consist of building a replica of the news site Newsweek.com using the Bootstrap Framework
-
-<!--
-*** Thanks for checking out this README Template. 
--->
-
-
 <!-- PROJECT TITLE -->
 
 <br />
