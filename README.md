@@ -57,7 +57,7 @@ Just clone or download the project and open the index.html in your browser.
 <!-- AUTHORS -->
 ## Authors
 
-👤 **Author1**
+👤 **Ricardo Valtierra**
 
 - Github: [@ricardovaltierra](https://github.com/ricardovaltierra)
 - Twitter: [@_ricardovr_](https://twitter.com/_ricardovr_)
