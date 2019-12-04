@@ -1,0 +1,10 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+files:
+    ignore:                
+        - 'LICENSE'
+        - 'assets/css/temp.css'
+        - '.gitignore'      
+fixers:
+    enable: true

@@ -1,0 +1,101 @@
+patterns on page(mobile):
+
+typography: 
+
+-block-title: gray color / roboto condensed / 16px
+-figcaption: red-blue / roboto condensed / 17px
+-image-title(a): black / roboto / 22px (top page)
+-image-title(a): black / roboto / 17px
+-image-title(a): black / roboto / 20px (middle page)
+-summary: #333 / Arial, Helvetica / 13px 
+
+-title: #272727 / Lora / 20px
+-summary(2): gray-rgba / Helvet Neue / 15px
+-tag: #272727 / Helvet Neue / 13px
+
+-article-author: #555 / roboto / 14px
+
+SIGN UP section:
+
+-image-title(a): black / roboto / 19px (middle page)
+-button: #FFF / roboto / 18px
+-lk-5: #333 / roboto / 15px
+
+-lk-gray: black / roboto / 18px
+-header-mid: #333 / roboto / 19px
+
+-red-button: #FFF / roboto / 16px
+-aside-red-b: red / roboto / 16px
+-article-link: black / roboto / 16px
+
+-count-link: red / Arial, Helv / 20px
+
+-p(suscribe section): #333 / Helvet Neue / 15px
+
+-copyrigth: #666 / Arial, Helv / 12px
+
+a.footer: #666 / Arial,Helv / 14px (1 bold)
+
+
+----------------------------------------------------------------
+
+by font-family / size order
+
+*roboto
+
+-image-title(a): black / roboto / 22px (top page)
+
+-image-title(a): black / roboto / 20px (middle page)
+-image-title(a): black / roboto / 19px (middle page)  	- 19
+-lk-gray: 	 black / roboto / 18px
+-button: 	 #FFF / roboto / 18px			- 18		
+-figcaption: 	 red-blue / roboto condensed / 17px	- 17
+-image-title(a): black / roboto / 17px
+-block-title: 	 gray color / roboto condensed / 16px	- 16
+-red-button: 	 #FFF / roboto / 16px
+-aside-red-b: 	 red / roboto / 16px
+-article-link: 	 black / roboto / 16px
+-lk-5: 		 black / roboto / 15px
+-article-author: #555 / roboto / 14px			- 14
+
+7 - black / roboto / border-text
+
+*Arial, Helv
+
+-count-link: red / Arial, Helv / 20px
+a.footer: #666 / Arial,Helv / 14px (1 bold)
+-summary: #333 / Arial, Helv / 13px			- 13
+-copyrigth: #666 / Arial, Helv / 12px
+
+*Helvet Neue
+
+-summary(2): gray-rgba / Helvet Neue / 15px
+-p(suscribe section): #333 / Helvet Neue / 15px		- 13
+-tag: #272727 / Helvet Neue / 13px
+
+*Lora
+
+-title: #272727 / Lora / 20px
+
+
+Classes:
+
+.rbt-19 (black / roboto / 19px) - 
+.rbt-button (#FFF / roboto / 18px)
+.rbt-figcaption (red-blue / roboto condensed / 17px)
+.rbt-16 (roboto condensed / 16px)
+.rbt-14 (roboto / 14px)
+-----------------------------------------------------------------
+
+
+Colors:
+
+- black
+- #FFF
+- News Red
+- News Blue
+- gray  rgba
+- #555
+- #666
+- #333 (black)
+- 272727 (footer) .
