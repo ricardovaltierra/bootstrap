@@ -35,7 +35,7 @@ Apple-clone page design with the use of CSS image and gradient resources applica
 
 *Desktop    -   Tablet  -   Mobile*
 <br>
-<img src="assets/img/screenshot/1.png" alt="Page desktop" height="280" /> <img src="assets/img/screenshot/2.png" alt="Page tablet" height="280" /> <img src="assets/img/screenshot/3.png" alt="Page mobile" height="280" />
+<img src="assets/img/screenshot/1.png" alt="Page desktop" height="250" /> <img src="assets/img/screenshot/2.png" alt="Page tablet" height="250" /> <img src="assets/img/screenshot/3.png" alt="Page mobile" height="250" />
 
 > [Live](https://newsweek-responsive.netlify.app/)
 
