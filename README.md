@@ -1,78 +1,82 @@
-<!-- PROJECT TITLE -->
+# Bootstrap Clone
 
-<br />
-<h1 align="center">USING BOOTSTRAP</h1>
-<p align="center">
-    Newsweek.com replica using Bootstrap CSS framework ('cause they do it just the same way).
-    <br />
+> An HMLT & CSS3 Project.
+
+<p align="right">
+  <br>
+  <a href="https://github.com/ricardovaltierra/bootstrap">Explore the repo »</a>
+  <br>
+  <a href="https://github.com/ricardovaltierra/bootstrap/issues">Request Feature</a>
 </p>
-
-
-<!-- TABLE OF CONTENTS -->
-
 
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-    * [Built With](#built-with)
+
+* [Preview](#preview)
+
+* [Built With](#built-with)
+
 * [Getting Started](#getting-started)
-* [License](#license)
+
+* [How it Works](#how-it-works)
+
+* [Contributing](#contributing)
+
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-* [Commit Summary](#commit-summary)
 
+* [MIT License](#mit-license)
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-## Desktop size
-![Screenshot Image](assets/img/screenshot/1.png)
-<br><br>
+Apple-clone page design with the use of CSS image and gradient resources application. Project specifications [here.](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
 
-## Tablet size
-![Screenshot Image](assets/img/screenshot/2.png)
-<br><br>
+## Preview
 
-## Mobile size
-![Screenshot Image](assets/img/screenshot/3.png)
-<br><br>
+*Desktop    -   Tablet  -   Mobile*
+<br>
+<img src="assets/img/screenshot/1.png" alt="Page desktop" height="280" /> <img src="assets/img/screenshot/2.png" alt="Page tablet" height="280" /> <img src="assets/img/screenshot/3.png" alt="Page mobile" height="280" />
 
-### Built With 
+> [Live](https://newsweek-responsive.netlify.app/)
 
-* HTML
-* CSS3
-* Bootstrap 4
-* Github
+Feel free to use and recommend it.
 
-<!-- LIVE DEMO -->
-## Live Demo
+## Built With
 
-[Newsweek](https://mvnewsweek.000webhostapp.com/)
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
-<!-- GETTING STARTED -->
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3)
+
+* [Bootstrap 4](https://getbootstrap.com/)
+
 ## Getting Started
 
-Just clone or download the project and open the index.html in your browser.
+To get a local copy up and running follow these simple steps.
 
-<!-- AUTHORS -->
-## Authors
+Clone or fork the <a href="https://github.com/ricardovaltierra/bootstrap/">repo</a> [git@github.com:ricardovaltierra/bootstrap.git].
 
-👤 **Ricardo Valtierra**
+## How it Works
 
-- Github: [@ricardovaltierra](https://github.com/ricardovaltierra)
-- Twitter: [@_ricardovr_](https://twitter.com/_ricardovr_)
-- Linkedin: [Ricardo Abraham Valtierrra Ruiz](https://www.linkedin.com/in/ricardo-abraham-valtierrra-ruiz-3a07a849/)
+Just clone or download the project and open the `index.html` in your browser.
 
-## Show your support
+## Contributing
 
-Give a ⭐️ if you like this project!
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+1. Fork the Project.
 
-* Microverse.
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
 
-<!-- LICENSE -->
-## License
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 
-Distributed under the MIT License. See `LICENSE` for more information.
+4. Push to the Branch (`git push origin feature/AmazingFeature`).
+
+5. Open a Pull Request.
+
+## Contact
+
+Ricardo Valtierra - [@RicardoValtie15](https://twitter.com/RicardoValtie15) - ricardo_valtierra@outlook.com  - [linkedin.com/in/ricardovaltierra/](https://www.linkedin.com/in/ricardovaltierra/)
+
+## MIT License
+
+This project is under the [MIT](LICENSE) license.
