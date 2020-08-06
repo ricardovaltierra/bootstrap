@@ -3,7 +3,7 @@
 <br />
 <h1 align="center">USING BOOTSTRAP</h1>
 <p align="center">
-    This project consist of building a replica of the news site Newsweek.com using the Bootstrap Framework
+    Newsweek.com replica using Bootstrap CSS framework ('cause they do it just the same way).
     <br />
 </p>
 
