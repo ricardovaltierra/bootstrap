@@ -1,4 +1,4 @@
-# Bootstrap Clone
+# Bootstrap Replica
 
 > An HMLT & CSS3 Project.
 
@@ -29,13 +29,13 @@
 
 ## About The Project
 
-Apple-clone page design with the use of CSS image and gradient resources application. Project specifications [here.](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
+Newsweek site actual replica built on Bootstrap 4 resources with responsiveness for tablet and mobile. The project specification can be found [here.](https://www.theodinproject.com/courses/html-and-css/lessons/using-bootstrap?ref=lnav)
 
 ## Preview
 
-*Desktop    -   Tablet  -   Mobile*
+*Desktop / Tablet / Mobile*
 <br>
-<img src="assets/img/screenshot/1.png" alt="Page desktop" height="250" /> <img src="assets/img/screenshot/2.png" alt="Page tablet" height="250" /> <img src="assets/img/screenshot/3.png" alt="Page mobile" height="250" />
+<img src="assets/img/screenshot/1.png" alt="Page desktop" height="255" /> <img src="assets/img/screenshot/2.png" alt="Page tablet" height="255" /> <img src="assets/img/screenshot/3.png" alt="Page mobile" height="255" />
 
 > [Live](https://newsweek-responsive.netlify.app/)
 
