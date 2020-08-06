@@ -29,7 +29,7 @@
 
 ## About The Project
 
-Newsweek site actual replica built on Bootstrap 4 resources with responsiveness for tablet and mobile. Project specifications found [here.](https://www.theodinproject.com/courses/html-and-css/lessons/using-bootstrap?ref=lnav)
+Newsweek site actual replica built on Bootstrap 4 resources with responsiveness for tablet and mobile. Project specifications [here.](https://www.theodinproject.com/courses/html-and-css/lessons/using-bootstrap?ref=lnav)
 
 ## Preview
 
